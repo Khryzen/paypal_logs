@@ -4,6 +4,7 @@ import (
 	"net/http"
 
 	"github.com/mbdeguzman/paypal_logs/api"
+	"github.com/mbdeguzman/paypal_logs/models"
 	"github.com/uadmin/uadmin"
 )
 
@@ -15,7 +16,9 @@ func main() {
 }
 
 func RegisterModels() {
-	uadmin.Register()
+	uadmin.Register(
+		models.PaypalLogs{},
+	)
 }
 
 func RegisterHandlers() {
