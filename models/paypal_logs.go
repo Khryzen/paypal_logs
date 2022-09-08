@@ -14,3 +14,7 @@ type PaypalLogs struct {
 	Response        string
 	RequestDate     time.Time
 }
+
+func (p *PaypalLogs) String() string {
+	return p.ReferenceNumber
+}

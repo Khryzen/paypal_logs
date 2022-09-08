@@ -1,0 +1,47 @@
+{
+  "display_name": "Paypal Logs",
+  "fields": {
+    "ID": {
+      "display_name": "ID",
+      "help": "",
+      "pattern_msg": "",
+      "err_msg": {},
+      "Choices": {}
+    },
+    "ReferenceNumber": {
+      "display_name": "Reference Number",
+      "help": "",
+      "pattern_msg": "",
+      "err_msg": {},
+      "Choices": {}
+    },
+    "RequestDate": {
+      "display_name": "Request Date",
+      "help": "",
+      "pattern_msg": "",
+      "err_msg": {},
+      "Choices": {}
+    },
+    "Response": {
+      "display_name": "Response",
+      "help": "",
+      "pattern_msg": "",
+      "err_msg": {},
+      "Choices": {}
+    },
+    "Restaurant": {
+      "display_name": "Restaurant",
+      "help": "",
+      "pattern_msg": "",
+      "err_msg": {},
+      "Choices": {}
+    },
+    "URL": {
+      "display_name": "URL",
+      "help": "",
+      "pattern_msg": "",
+      "err_msg": {},
+      "Choices": {}
+    }
+  }
+}
